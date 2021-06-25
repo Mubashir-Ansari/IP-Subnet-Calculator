@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Subnet Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="./eel.js"></script>
+    <script type="text/javascript" src="./app.js"></script>
+</head>
+<body>
+<h1> IP Subnet Calculator</h1>
+<div class="container"><br>
+    <div>
+        <div id="table">
+            <h4 id="text">Search Format [ a.b.c.d/xx]</h4>
+        </div>
+        <textarea name="" id="data_1" cols="120" rows="1"></textarea>
+    </div>
+    <div>
+        <button type="button" id="btn" class="submit" onclick="main()">Calculate</button>
+    </div><br>
+    <div id="table">
+        <h4 id="text">Result</h4>
+    </div>
+<div>
+    Class: <textarea name="" id="class" cols="122" rows="1"></textarea>
+</div>
+<div>
+    Broadcast Mask: <textarea name="" id="broad" cols="122" rows="1"></textarea>
+</div>
+<div>
+    Subnet Mask: <textarea name="" id="subnet" cols="122" rows="1"></textarea>
+</div>
+<div>
+    Wilcard Mask: <textarea name="" id="wild" cols="122" rows="1"></textarea>
+</div>
+<div>
+    First: <textarea name="" id="first" cols="122" rows="1"></textarea>
+</div>
+<div>
+    Last: <textarea name="" id="last" cols="122" rows="1"></textarea>
+</div>
+<div>
+    CIDR Notation: <textarea name="" id="cidr" cols="122" rows="1"></textarea>
+</div>
+<div>
+    Next Network: <textarea name="" id="next" cols="122" rows="1"></textarea>
+</div>
+</body>
+</html>
